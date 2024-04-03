@@ -7,6 +7,13 @@
     gap: px;
 }
 
+.grid-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 /* .grid-item {
     display: grid;
     align-items: center;
@@ -26,21 +33,12 @@
     font-size: 50px;
 }
 
-/* body {
-    display: grid;
-}
 
-@media (min-widht: 600px) {
-    body {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+
+
+@media (max-width: 600px) {
+     .grid-container {
+        grid-template-columns: 1fr ;
+        
     }
 }
-
-@media (max-width: 599px) {
-    body {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-
-    }
-} */
